@@ -1,0 +1,19 @@
+.skill-card {
+
+    opacity: #6244C5;
+    border: 2px solid #6244C5;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .progress-bar {
+    width: 0;
+    transition: width 1.5s ease-in-out;
+  }
+  

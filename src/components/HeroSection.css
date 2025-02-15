@@ -1,0 +1,38 @@
+/*** Header ***/
+#home {
+    margin-bottom: 6rem;
+    background:url(/public/bg-header.png)left top no-repeat
+
+}
+
+.container-fluid {
+    padding: 50px 0;
+  }
+  
+  h1.display-3 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #12141D;
+  }
+  
+  h3.head {
+    font-size: 32px;
+    color: #6244C5; /* Matches text-primary */
+  }
+  
+  .btn-primary {
+    background-color: #6244C5;
+    border-color: #6244C5;
+  }
+  
+  .btn-primary:hover {
+    background-color: #FFC448;
+    border-color: #FFC448;
+    color: #12141D;
+  }
+  
+  .typed-text-output {
+    font-size: 1.5rem;
+    color: #6244C5;
+  }
+  

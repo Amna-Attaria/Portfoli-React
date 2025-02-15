@@ -1,0 +1,111 @@
+:root {
+    --primary: #6244C5;
+    --secondary: #FFC448;
+    --light: #FAFAFB;
+    --dark: #12141D;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--light);
+    color: var(--dark);
+  }
+  
+  .navbar {
+    background-color: var(--light);
+    border-bottom: 2px solid var(--dark);
+  }
+  
+  .navbar-brand h1 {
+    font-size: 1.8rem;
+    color: var(--primary);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-brand h1:hover {
+    transform: scale(1.1);
+  }
+  
+  .nav-item .nav-link {
+    font-size: 1rem;
+    color: var(--dark);
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .nav-item .nav-link:hover {
+    color: var(--light);
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding: 8px 12px;
+  }
+  
+  .nav-item .nav-link.active {
+    color: var(--primary);
+    font-weight: bold;
+    border-bottom: 2px solid var(--secondary);
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: var(--primary);
+    width: 30px;
+    height: 3px;
+    display: block;
+    position: relative;
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: '';
+    background-color: var(--primary);
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler-icon::before {
+    top: -8px;
+  }
+  
+  .navbar-toggler-icon::after {
+    top: 8px;
+  }
+  
+  .navbar-toggler:hover .navbar-toggler-icon {
+    background-color: var(--secondary);
+  }
+  
+  .navbar-toggler:hover .navbar-toggler-icon::before,
+  .navbar-toggler:hover .navbar-toggler-icon::after {
+    background-color: var(--secondary);
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-brand h1 {
+      font-size: 1.5rem;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+  .custom-name-gradient {
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+    font-size: 3.5rem; /* Adjust size */
+    background: linear-gradient(90deg, #6244C5, #FFC448, #F05454); /* Purple, Yellow, and a vibrant Red */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Makes the gradient visible */
+    letter-spacing: 2px; /* Spaced-out for readability */
+    text-transform: uppercase; /* Adds impact */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+  }
+  
