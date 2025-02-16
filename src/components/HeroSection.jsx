@@ -31,7 +31,7 @@ const HeroSection = () => {
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 py-6 pb-0 pt-lg-0">
               <h3 className="head text-primary mb-3">I'm</h3>
-              <h1 className="display-3 mb-3">Amna Attaria</h1>
+              <h1 className="display-3 mb-3">Amna Khan</h1>
               <h2 className="typed-text-output d-inline"></h2>
               <div className="d-flex align-items-center pt-5">
                 <a
@@ -42,6 +42,18 @@ const HeroSection = () => {
                   Download CV
                 </a>
               </div>
+              <div class="d-flex pt-2 mt-3">
+              <a class="btn btn-square btn-primary me-2" href="mailto:your_email@gmail.com">
+  <i class="fas fa-envelope"></i>
+</a>
+<a class="btn btn-square btn-primary me-2" href="https://github.com/your_username" target="_blank">
+  <i class="fab fa-github "></i>
+</a>
+
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
             </div>
             <div class="col-lg-6 mb-5">
             <img className="img-fluid " src="/profile.png" alt="Profile" width="90%" />

@@ -23,200 +23,184 @@ const Skill = () => {
   }, []);
 
   return (
-    <>
-      {/* Skills Section */}
-      <div className="container-xxl py-6" id="skill" style={{ backgroundColor: "#FAFAFB" }}>
-        <div className="container">
-          <h1 className="display-5 mb-5 text-center" style={{ color: "#12141D" }}>
-            Skills
-          </h1>
-          <div className="row g-5">
-            {/* Frontend Skills Card */}
-            <div className="col-lg-4">
-              <div className="card skill-card">
-                <div className="card-body">
-                  <h4 className="card-title text-center mb-4" style={{ color: "#6244C5" }}>
-                    Frontend Skills
-                  </h4>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>HTML</h6>
-                      <h6>95%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-success"
-                        role="progressbar"
-                        aria-valuenow="95"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>CSS</h6>
-                      <h6>85%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-primary"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>JavaScript</h6>
-                      <h6>80%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-warning"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>React</h6>
-                      <h6>80%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-info"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>Tailwind</h6>
-                      <h6>80%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-info"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
+    <div className="skills-section" id="Skill">
+      <div className="container py-6" id="skills">
+      <h1 className=" section-title text-center ">Skills</h1>
+        <div className="skills-grid">
+          {/* Frontend Skills */}
+          <div className="skill-card col">
+            <h4 className="skill-title">
+              <i className="fas fa-paint-brush"></i> Frontend Skills
+            </h4>
+            <div className="skill">
+              <span>HTML</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
               </div>
             </div>
-
-            {/* Backend Skills Card */}
-            <div className="col-lg-4">
-              <div className="card skill-card">
-                <div className="card-body">
-                  <h4 className="card-title text-center mb-4" style={{ color: "#FFC448" }}>
-                    Backend Skills
-                  </h4>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>PHP</h6>
-                      <h6>70%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-danger"
-                        role="progressbar"
-                        aria-valuenow="70"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>Firebase</h6>
-                      <h6>80%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-secondary"
-                        role="progressbar"
-                        aria-valuenow="80"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
+            <div className="skill">
+              <span>CSS</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
               </div>
             </div>
+            <div className="skill">
+              <span>JavaScript</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>React</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>Angular</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
 
-            {/* Database Skills & Others */}
-            <div className="col-lg-4">
-              <div className="card skill-card">
-                <div className="card-body">
-                  <h4 className="card-title text-center mb-4" style={{ color: "#12141D" }}>
-                    Database & Others
-                  </h4>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>MySQL</h6>
-                      <h6>75%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-dark"
-                        role="progressbar"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>SQL Server</h6>
-                      <h6>75%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-dark"
-                        role="progressbar"
-                        aria-valuenow="75"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                  <div className="skill mb-4">
-                    <div className="d-flex justify-content-between">
-                      <h6>Git</h6>
-                      <h6>85%</h6>
-                    </div>
-                    <div className="progress">
-                      <div
-                        className="progress-bar bg-success"
-                        role="progressbar"
-                        aria-valuenow="85"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                      ></div>
-                    </div>
-                  </div>
-                </div>
+          {/* Backend Skills */}
+          <div className="skill-card col">
+            <h4 className="skill-title">
+              <i className="fas fa-server"></i> Backend Skills
+            </h4>
+            <div className="skill">
+              <span>PHP</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="70"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>Firebase</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          {/* Database Skills */}
+          <div className="skill-card col">
+            <h4 className="skill-title">
+              <i className="fas fa-database"></i> Database Skills
+            </h4>
+            <div className="skill">
+              <span>MySQL</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>SQL Server</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          
+          </div>
+ {/* Frame work  */}
+ <div className="skill-card col">
+            <h4 className="skill-title">
+            <i className="fas fa-tools"></i> Frameworks & Tools
+            </h4>
+            <div className="skill">
+              <span>Bootstap</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>Tailwind</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>Git</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

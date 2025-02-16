@@ -1,0 +1,39 @@
+.pro-section {
+    background: linear-gradient(to bottom right, #e0d5fc, #f6f3eb);
+    padding: 50px 20px;
+  }
+  
+.custom-card {
+    width: 18rem; /* Fixed width */
+    height: 25rem; /* Set a fixed height for uniformity */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ensure all images adjust properly within the card */
+  .card-image {
+    height: 12rem; /* Consistent height for all images */
+    object-fit: cover; /* Ensure images cover the area proportionally without distortion */
+    width: 100%; /* Match the card's width */
+    border-radius: 4px 4px 0 0; /* Optional: Smooth corners for images */
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-image:hover {
+    opacity: 0.2; /* Slight opacity change on hover */
+  }
+  
+  /* Adjust Button styling inside cards for uniformity */
+  .card-body .btn {
+    width: 100%; /* Button takes full width of the card body */
+    margin-top: 10px; /* Add spacing above the button */
+  }
+  

@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5">
         {/* Mobile Brand */}
         <a href="#home" className="navbar-brand d-block d-lg-none">
-          <h1 className="text-primary fw-bold m-0">ProMan</h1>
+          <h1 className="text-primary fw-bold m-0">Amna Khan</h1>
         </a>
 
         {/* Toggler Button */}
@@ -23,7 +23,7 @@ const Navbar = () => {
 
         {/* Brand Logo for Desktop */}
         <a href="#home" className="navbar-brand mx-3 d-none d-lg-block">
-        <h1 className="text-primary fw-bold custom-name-gradient">Amna Attaria</h1>
+        <h1 className="text-primary fw-bold custom-name-gradient">Amna Khan</h1>
 
 
         </a>
@@ -38,10 +38,7 @@ const Navbar = () => {
             <a href="#home" className="nav-item nav-link active">
               Home
             </a>
-            <a href="#about" className="nav-item nav-link">
-              About
-            </a>
-            <a href="#skill" className="nav-item nav-link">
+            <a href="#Skill" className="nav-item nav-link">
               Skills
             </a>
             <a href="#service" className="nav-item nav-link">
@@ -51,15 +48,10 @@ const Navbar = () => {
 
           {/* Right Links */}
           <div className="navbar-nav me-auto py-0">
-            <a href="#project" className="nav-item nav-link">
+            <a href="#pro" className="nav-item nav-link">
               Projects
             </a>
-            <a href="#team" className="nav-item nav-link">
-              Team
-            </a>
-            <a href="#testimonial" className="nav-item nav-link">
-              Testimonials
-            </a>
+         
             <a href="#contact" className="nav-item nav-link">
               Contact
             </a>
