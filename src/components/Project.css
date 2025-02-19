@@ -37,3 +37,31 @@
     margin-top: 10px; /* Add spacing above the button */
   }
   
+
+  /* button styling  */
+  .btn-custom {
+    background: linear-gradient(135deg, #ffc107, #ff8800); /* Gradient background */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 30px; /* Rounded buttons */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Soft shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .btn-custom:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+    background: linear-gradient(135deg, #ff8800, #ffc107); /* Reverse gradient on hover */
+  }
+
+  .btn-custom:active {
+    transform: translateY(0); /* Reset lift on click */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Reset shadow */
+  }
+
+  .d-flex {
+    gap: 1rem; /* Adds spacing between buttons */
+  }
