@@ -33,9 +33,10 @@ const Navbar = () => {
           className="collapse navbar-collapse justify-content-between py-4 py-lg-0"
           id="navbarCollapse"
         >
-          {/* Left Links */}
-          <div className="navbar-nav ms-auto py-0">
-            <a href="#home" className="nav-item nav-link active">
+    
+          <div className="navbar-nav ms-auto py-0 ">
+          <ul className="navbar-nav ms-auto d-flex justify-content-end ">
+         <a href="#home" className="nav-item nav-link active">
               Home
             </a>
             <a href="#Skill" className="nav-item nav-link">
@@ -44,10 +45,6 @@ const Navbar = () => {
             <a href="#service" className="nav-item nav-link">
               Services
             </a>
-          </div>
-
-          {/* Right Links */}
-          <div className="navbar-nav me-auto py-0">
             <a href="#pro" className="nav-item nav-link">
               Projects
             </a>
@@ -55,7 +52,9 @@ const Navbar = () => {
             <a href="#contact" className="nav-item nav-link">
               Contact
             </a>
+         </ul>
           </div>
+      
         </div>
       </nav>
       {/* Navbar End */}

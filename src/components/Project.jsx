@@ -57,11 +57,36 @@ const Project = () => {
     },
     {
       id: 7,
-      category: "React",
+      category: "FireBase",
       title: "Post App",
       description: "This Post App was made using HTML, CSS, JavaScript, Firebase.",
       img: "/post.png",
       link: "https://post-app-fire-base-authentication.vercel.app/",
+    },
+
+    {
+      id: 8,
+      category: "HTML & CSS",
+      title: "Specie Sheild",
+      description: "This Website was made using HTML, CSS, JavaScript",
+      img: "/sheild.png",
+      link: "https://67bb77794b59d79771203c1d--magnificent-moxie-6836c0.netlify.app/",
+    },
+    {
+      id: 9,
+      category: "Rect",
+      title: "Portfolio",
+      description: "This Portfolio was made using HTML, CSS, JavaScript,React",
+      img: "/portfolio.png",
+      link: "https://67bb77794b59d79771203c1d--magnificent-moxie-6836c0.netlify.app/",
+    },
+    {
+      id: 10,
+      category: "HTML & CSS",
+      title: " Serch Movie",
+      description: "This Project was made using HTML, CSS, JavaScript and API",
+      img: "/movie.png",
+      link: "https://67bb77794b59d79771203c1d--magnificent-moxie-6836c0.netlify.app/",
     },
   ];
 
@@ -104,7 +129,7 @@ const Project = () => {
               <Card.Img
                 variant="top"
                 src={project.img}
-                className="card-image mt-2"
+                className="card-image mt-2 p-1"
               />
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
@@ -113,6 +138,8 @@ const Project = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                   className="live-link"
+                   mt-5
                 >
                   Live Link
                 </a>

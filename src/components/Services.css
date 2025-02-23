@@ -7,3 +7,20 @@
     background: url(/public/bg-icon.png) center center no-repeat;
     background-size: cover;
 }
+
+.slide-in {
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  
