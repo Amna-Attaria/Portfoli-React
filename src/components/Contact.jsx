@@ -29,7 +29,7 @@ const Contact = () => {
                 <a className="btn btn-square btn-primary me-2" href="#">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a className="btn btn-square btn-primary me-2" href="mailto:amna12khan26@gmail.com">
+                <a class="btn btn-square btn-primary me-2" href="https://mail.google.com/mail/?view=cm&fs=1&to=amna12khan26@gmail.com" target="_blank">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a
