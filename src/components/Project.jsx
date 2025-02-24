@@ -74,7 +74,7 @@ const Project = () => {
     },
     {
       id: 9,
-      category: "Rect",
+      category: "React",
       title: "Portfolio",
       description: "This Portfolio was made using HTML, CSS, JavaScript,React",
       img: "/portfolio.png",
