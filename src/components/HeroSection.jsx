@@ -10,8 +10,8 @@ const HeroSection = () => {
         'Web Designer',
         'Web Developer',
         'Front End Developer',
-        'Apps Designer',
-        'Apps Developer',
+        'FullStack Developer',
+        'DataBase Managment'
       ],
       typeSpeed: 100,
       backSpeed: 50,
