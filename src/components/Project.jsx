@@ -36,7 +36,7 @@ const Project = () => {
       category: "JavaScript",
       title: "Calculator",
       description: "A fully functional calculator built using JavaScript.",
-      img: "/calculator.png",
+      img: "/claculator.png",
       link: "https://calculator-beta-eight-12.vercel.app/",
     },
     {
@@ -49,7 +49,7 @@ const Project = () => {
     },
     {
       id: 6,
-      category: "Firebase",
+      category: "FireBase",
       title: "Blog App",
       description: "A Blog App built using HTML, CSS, JavaScript, and Firebase for authentication and database management.",
       img: "/hackathone.jpg",
@@ -57,7 +57,7 @@ const Project = () => {
     },
     {
       id: 7,
-      category: "Firebase",
+      category: "FireBase",
       title: "Post App",
       description: "A Post App created with HTML, CSS, JavaScript, and Firebase for storing and managing posts.",
       img: "/post.png",
