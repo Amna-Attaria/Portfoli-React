@@ -78,7 +78,7 @@ const Project = () => {
       title: "Portfolio",
       description: "This Portfolio was made using HTML, CSS, JavaScript,React",
       img: "/portfolio.png",
-      link: "https://67bb77794b59d79771203c1d--magnificent-moxie-6836c0.netlify.app/",
+      link: "https://portfoli-react.vercel.app/",
     },
     {
       id: 10,
