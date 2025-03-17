@@ -86,7 +86,7 @@ const Skill = () => {
                 <div
                   className="progress-bar"
                   role="progressbar"
-                  aria-valuenow="80"
+                  aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>
@@ -123,6 +123,30 @@ const Skill = () => {
                 ></div>
               </div>
             </div>
+            <div className="skill">
+              <span>Node js</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>Express js</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="80"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
           </div>
 
           {/* Database Skills */}
@@ -149,6 +173,18 @@ const Skill = () => {
                   className="progress-bar"
                   role="progressbar"
                   aria-valuenow="75"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <div className="skill">
+              <span>Mongo DB</span>
+              <div className="progress">
+                <div
+                  className="progress-bar"
+                  role="progressbar"
+                  aria-valuenow="70"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 ></div>

@@ -124,20 +124,20 @@ const Project = () => {
       <h1 className="text-center" id="pro">
         MY Projects
       </h1>
-      <div className="d-flex justify-content-center mt-3 mb-3">
-        <button className="btn-custom" onClick={() => setFilter("all")}>
+      <div className="d-flex flex-wrap justify-content-center gap-2mt-3 mb-3">
+        <button className="btn-custom  w-auto w-md-50 w-sm-75" onClick={() => setFilter("all")}>
           All
         </button>
-        <button className="btn-custom" onClick={() => setFilter("HTML & CSS")}>
+        <button className="btn-custom  w-auto w-md-50 w-sm-75" onClick={() => setFilter("HTML & CSS")}>
           HTML & CSS
         </button>
-        <button className="btn-custom" onClick={() => setFilter("JavaScript")}>
+        <button className="btn-custom  w-auto w-md-50 w-sm-75" onClick={() => setFilter("JavaScript")}>
           JavaScript
         </button>
-        <button className="btn-custom" onClick={() => setFilter("React")}>
+        <button className="btn-custom  w-auto w-md-50 w-sm-75" onClick={() => setFilter("React")}>
           React
         </button>
-        <button className="btn-custom" onClick={() => setFilter("FireBase")}>
+        <button className="btn-custom  w-auto w-md-50 w-sm-75" onClick={() => setFilter("FireBase")}>
           FireBase
         </button>
       </div>
