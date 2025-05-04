@@ -111,6 +111,22 @@ const Project = () => {
       img: "/tailwind.png",
       link: "https://react-tailwind-nine-kappa.vercel.app/",
     },
+    {
+      id: 14,
+      category: "MERN",
+      title: "Employee Managment System",
+      description: "Make a employee managment system by using MERN",
+      img: "/employee.png",
+      link: "https://employee-managment-system-mern.vercel.app",
+    },
+    {
+      id: 15,
+      category: "MERN",
+      title: "Task Tracker",
+      description: "Make a task tracker using MERN",
+      img: "/task.png",
+      link: "https://mern-hackathone.vercel.app",
+    },
   ];
 
   // Filtered Projects Logic
@@ -139,6 +155,9 @@ const Project = () => {
         </button>
         <button className="btn-custom  w-auto w-md-50 w-sm-75" onClick={() => setFilter("FireBase")}>
           FireBase
+        </button>
+        <button className="btn-custom  w-auto w-md-50 w-sm-75" onClick={() => setFilter("MERN")}>
+          MERN
         </button>
       </div>
 
